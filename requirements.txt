@@ -1,0 +1,10 @@
+asgiref
+Django
+django-cors-headers
+django-extensions
+djangorestframework
+gunicorn
+packaging
+pyt
+sqlparse
+typing_extensions
