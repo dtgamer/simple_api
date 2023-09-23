@@ -4,9 +4,9 @@ from django.utils.decorators import method_decorator
 from django.views import View
 from rest_framework.parsers import JSONParser
 from rest_framework import status
-from django.contrib.auth.hashers import make_password, check_password  # For password hashing
+from django.contrib.auth.hashers import make_password, check_password
 from .models import User
-from .serializers import UserSerializer  # Import your serializer
+from .serializers import UserSerializer 
 
 @method_decorator(csrf_exempt, name='dispatch')
 class UserView(View):
